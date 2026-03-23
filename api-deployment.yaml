@@ -18,5 +18,5 @@ spec:
        - name: synergychat-api
          image: bootdotdev/synergychat-api:latest
          envFrom:
-           - configMapKeyRef:
+           - configMapRef:
                name: synergychat-api-configmap
